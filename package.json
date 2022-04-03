@@ -2,13 +2,13 @@
   "name": "darkula",
   "displayName": "darkula",
   "description": "yes another dracula mod here 🙄",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "izcream",
   "repository": {
     "type": "git",
     "url": "https://github.com/izcream/darkula"
   },
-  "icon": "icon.png",
+  "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.64.0"
   },

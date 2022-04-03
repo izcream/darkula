@@ -6,6 +6,9 @@ Thanks [Arkham Theme](https://marketplace.visualstudio.com/items?itemName=lucasm
 
 ### SCREENSHOT
 
-![Typescript](typescript.png)
-![Golang](golang.png)
-![HTML](html_vue.png)
+![HTML](assets/html.png)
+![Vue](assets/vue.png)
+![Javascript](assets/js.png)
+![PHP](assets/php.png)
+![CSS](assets/css.png)
+![Python](assets/python.png)
