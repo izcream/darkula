@@ -1,5 +1,5 @@
 # darkula theme
----
+
 yes this is another dracula theme mod 🙄
 
 Thanks [Arkham Theme](https://marketplace.visualstudio.com/items?itemName=lucasmsa.arkham-theme) for UI colors😘
