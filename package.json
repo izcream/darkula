@@ -2,7 +2,7 @@
   "name": "darkula",
   "displayName": "darkula",
   "description": "yes another dracula mod here 🙄",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "publisher": "izcream",
   "scripts": {
     "clean": "rm -rf src/original && mkdir src/original",
