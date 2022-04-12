@@ -2,6 +2,8 @@ $schema: vscode://schemas/color-theme
 name: darkula
 type: dark
 author: izcream*
+maintainers:
+  - izcream* <farmer@izcream.me>
 semanticClass: theme.dracula
 semanticHighlighting: true
 colors:
