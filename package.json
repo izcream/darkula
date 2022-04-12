@@ -2,8 +2,15 @@
   "name": "darkula",
   "displayName": "darkula",
   "description": "yes another dracula mod here 🙄",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "publisher": "izcream",
+  "scripts": {
+    "clean": "rm -rf src/original && mkdir src/original",
+    "build": "yarn clean && node scripts/build.js",
+    "dev": "node scripts/build.js",
+    "prepack": "yarn build",
+    "pack": "vsce package --yarn"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/izcream/darkula"
@@ -27,8 +34,12 @@
       {
         "label": "darkula",
         "uiTheme": "vs-dark",
-        "path": "./themes/darkula-color-theme.json"
+        "path": "./darkula-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "degit": "^2.8.4",
+    "js-yaml": "^4.1.0"
   }
 }

@@ -1,1 +1,6 @@
 *.vsix
+*.tgz
+node_modules
+src/original
+themes
+darkula-color-theme.json
