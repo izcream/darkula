@@ -6,10 +6,10 @@
   "publisher": "izcream",
   "scripts": {
     "clean": "rm -rf src/original && mkdir src/original",
-    "build": "yarn clean && node scripts/build.js",
+    "build": "bun run clean && node scripts/build.js",
     "dev": "node scripts/build.js",
-    "prepack": "yarn build",
-    "pack": "vsce package --yarn"
+    "prepack": "bun run build",
+    "pack": "vsce package"
   },
   "repository": {
     "type": "git",
