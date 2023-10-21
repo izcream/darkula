@@ -41,7 +41,6 @@ async function build() {
       delete original.colors[key];
     }
   }
-  delete original.maintainers
   const custom = load(fs.readFileSync('./src/darkula.yml', 'utf8'))
   //merged colors
   original.colors = Object.assign({}, original.colors, custom.colors)
